@@ -1,13 +1,13 @@
 # Tactical Card Dungeon
 
 Game prototype of a lite roguelike, you play HERO in windows CMD/ide, move with
-
 arrows (asdw in
 IDE),
+
 Defeat ennemies, collect gold, pick weapons, open chest, avoid rotating
 traps, etc..
 
-Code currently only one fullnight
+Only one fullnight of work atm.
 
 
 

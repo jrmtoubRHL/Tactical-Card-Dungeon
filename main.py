@@ -9,9 +9,7 @@ import time
 
 import Control
 
-
 USE_IDE = False
-
 
 if USE_IDE != True:
 	init(autoreset=True)
@@ -152,7 +150,7 @@ def format_stats(card_dict):
 		result += '  '
 
 		result += str(Fore.LIGHTRED_EX) + int_2_show(
-			card_dict.hit)  # result += str(Fore.LIGHTWHITE_EX) + int_2_show(card_dict.duration)
+				card_dict.hit)  # result += str(Fore.LIGHTWHITE_EX) + int_2_show(card_dict.duration)
 
 	elif card_dict.id == 'monster':
 		result += '  '
@@ -202,8 +200,6 @@ def format_stats(card_dict):
 	return result
 
 
-
-
 class Board(object):
 	'''
 
@@ -245,7 +241,7 @@ class Board(object):
 
 				for moving in cards_to_move:
 					self.cells[self.hero_pos[1]][moving + 1] = \
-					self.cells[self.hero_pos[1]][moving]
+						self.cells[self.hero_pos[1]][moving]
 
 			self.cells[self.hero_pos[1]][0] = self.random_card_spawn()
 			self.hero_pos[0] += 1
@@ -355,7 +351,7 @@ class Board(object):
 		caract_separator_horiz = '-'
 
 		horizon_separator = '++'.join(
-			[str(caract_separator_horiz * size_of_card)] * self.xy_size[0])
+				[str(caract_separator_horiz * size_of_card)] * self.xy_size[0])
 
 		# x_separator = (separator_chr[:-1]*(self.xy_size[0]))*2
 		list_redable_lines = []  # *self.xy_size[0]]
@@ -379,13 +375,13 @@ class Board(object):
 		# list_redable_lines.append(x_separator[2:])
 		# print(one_line)
 		print(
-			Fore.WHITE + caract_separator_horiz + horizon_separator + caract_separator_horiz)
+				Fore.WHITE + caract_separator_horiz + horizon_separator + caract_separator_horiz)
 		for numb, readable_line in enumerate(list_redable_lines):
 
 			print('|' + '||'.join(readable_line) + '|')
 			if numb % 2 != 0:
 				print(
-					Fore.WHITE + caract_separator_horiz + horizon_separator + caract_separator_horiz)
+						Fore.WHITE + caract_separator_horiz + horizon_separator + caract_separator_horiz)
 		print('Coins: {}, Moves: {}'.format(self.HERO.coins, self.moves))
 
 		return
@@ -418,7 +414,7 @@ def main_loop(ide=True):
 	#
 	while (True):
 
-		if ide== True:
+		if ide == True:
 
 			m = input()
 		else:
