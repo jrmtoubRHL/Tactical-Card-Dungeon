@@ -8,10 +8,6 @@ import os
 import time
 
 import Control
-print()
-print()
-print()
-print()
 
 
 USE_IDE = False
@@ -49,7 +45,8 @@ chest = {'name':       'Chest ', 'color': Fore.LIGHTYELLOW_EX, 'id': 'chest',
 trap = {'name': ' Trap ', 'hit': [2, 5], 'color': Fore.LIGHTBLUE_EX,
         'id':   'trap', 'pos': 'V ', 'rank': -3}
 
-pick_randomcards = [monster,monster, coin, Sword, Potion, chest, trap]
+pick_randomcards = [monster, monster, monster, coin, Sword, Potion, chest,
+                    trap, trap]
 
 
 class Card(object):
