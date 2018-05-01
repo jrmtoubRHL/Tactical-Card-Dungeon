@@ -1,7 +1,9 @@
 # Tactical Card Dungeon
 
 Game prototype of a lite roguelike, you play HERO, move with arrows (asdw in
-IDE)
+IDE), Defeat ennemies, collect gold, pick weapons, etc,
+
+It is very early stage of devellopement (currently one night coding )
 
 
 ![Ugly](img/cmd.gif)
