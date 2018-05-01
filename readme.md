@@ -28,7 +28,7 @@ It looks a bit better on IDE,(change USE_IDE = True)
  ennemy for example, using rank attribute)
 - Create the 'complex mod', using more attributes (durability, hit/life, etc)
 - Create tkinter version with graphics_LOL
-- Refector the moving functions (group in one function) ASAP
+- Refactor the moving functions (group in one function) ASAP
 - Think of more random element , and karma stuff, (and short mod)
 - Introduce magic
 
