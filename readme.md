@@ -6,7 +6,12 @@ IDE), Defeat ennemies, collect gold, pick weapons, etc,
 It is very early stage of devellopement (currently one night coding )
 
 
+
 ![Ugly](img/cmd.gif)
+
+- green = life
+- red = hits
+
 
 It looks better on IDE,(change USE_IDE = True)
 
@@ -21,3 +26,5 @@ It looks better on IDE,(change USE_IDE = True)
 - Refector the moving functions (group in one function) ASAP
 - Think of more random element , and karma stuff, (and short mod)
 - Introduce magic
+
+
