@@ -24,7 +24,8 @@ It looks a bit better on IDE,(change USE_IDE = True)
 ### Todo and issues :
 
 - Auto detect use of IDE..
-- Better random spawn, (if a lot of potion in board , always spawn an enemy for example, using rank attribute)
+- Better randomized card spawn, (if a lot of potions in board , always spawn an
+ ennemy for example, using rank attribute)
 - Create the 'complex mod', using more attributes (durability, hit/life, etc)
 - Create tkinter version with graphics_LOL
 - Refector the moving functions (group in one function) ASAP
