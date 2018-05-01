@@ -4,11 +4,11 @@ Game prototype of a lite roguelike, you play HERO, move with arrows (asdw in
 IDE)
 
 
-[Ugly](img/cmd.gif)
+![Ugly](img/cmd.gif)
 
 It looks better on IDE,(change USE_IDE = True)
 
-[bit better](img/ide_true.jpg)
+![bit better](img/ide_true.jpg)
 
 ### Todo and issues :
 
