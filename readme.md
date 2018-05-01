@@ -17,7 +17,7 @@ Only one fullnight of work atm.
 - red = hits
 
 
-It looks better on IDE,(change USE_IDE = True)
+It looks a bit better on IDE,(change USE_IDE = True)
 
 ![bit better](img/ide_true.jpg)
 
